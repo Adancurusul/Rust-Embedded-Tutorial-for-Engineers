@@ -40,12 +40,25 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
-      - name: Build with mdBook
-        run: mdbook build
+      - name: Build both versions
+        run: |
+          # Build English version (with English config)
+          cp book-en.toml book.toml
+          mdbook build
+          
+          # Build Chinese version (with Chinese config)
+          cp book-zh.toml book.toml
+          mdbook build
+          
+          # Create deployment structure
+          mkdir -p deploy
+          cp index.html deploy/
+          cp -r book-en deploy/
+          cp -r book-zh deploy/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./book
+          path: ./deploy
 
   # Deployment job
   deploy:

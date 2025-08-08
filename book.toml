@@ -1,6 +1,0 @@
-[book]
-authors = ["Hongda Chen"]
-language = "zh-CN"
-multilingual = false
-src = "src"
-title = "嵌入式工程师的单片机Rust上手指南"

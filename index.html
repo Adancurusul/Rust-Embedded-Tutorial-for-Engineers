@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rust Embedded Tutorial for Engineers</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: #f8f9fa;
+            line-height: 1.6;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 30px;
+        }
+        .language-options {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin: 40px 0;
+        }
+        .language-card {
+            background: #f8f9fa;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            padding: 30px;
+            text-decoration: none;
+            color: #2c3e50;
+            transition: all 0.3s ease;
+            flex: 1;
+            max-width: 300px;
+        }
+        .language-card:hover {
+            background: #007bff;
+            color: white;
+            border-color: #007bff;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0,123,255,0.3);
+        }
+        .language-card h2 {
+            margin: 0 0 10px 0;
+            font-size: 1.5em;
+        }
+        .language-card p {
+            margin: 0;
+            font-size: 0.9em;
+            opacity: 0.8;
+        }
+        .description {
+            color: #6c757d;
+            margin: 20px 0 40px 0;
+        }
+        @media (max-width: 768px) {
+            .language-options {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🦀 Rust Embedded Tutorial for Engineers</h1>
+        <p class="description">
+            A comprehensive guide for embedded engineers to get started with Rust for microcontroller development.
+        </p>
+        
+        <div class="language-options">
+            <a href="book-en/" class="language-card">
+                <h2>English</h2>
+                <p>Read the tutorial in English</p>
+            </a>
+            
+            <a href="book-zh/" class="language-card">
+                <h2>简体中文</h2>
+                <p>阅读中文版教程</p>
+            </a>
+        </div>
+        
+        <p style="margin-top: 40px; color: #6c757d; font-size: 0.9em;">
+            Choose your preferred language to start reading
+        </p>
+    </div>
+</body>
+</html>

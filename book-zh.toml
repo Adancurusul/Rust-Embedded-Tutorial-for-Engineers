@@ -1,0 +1,12 @@
+[book]
+authors = ["Hongda Chen"]
+language = "zh-CN"
+src = "zh"
+title = "嵌入式工程师的单片机Rust上手指南"
+
+[build]
+build-dir = "book-zh"
+
+[output.html]
+git-repository-url = "https://github.com/AdancUSUL/Rust-Embedded-Tutorial-for-Engineers"
+edit-url-template = "https://github.com/AdancUSUL/Rust-Embedded-Tutorial-for-Engineers/edit/main/{path}"

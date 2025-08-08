@@ -1,0 +1,12 @@
+[book]
+authors = ["Hongda Chen"]
+language = "en"
+src = "en"
+title = "Rust Embedded Tutorial for Engineers"
+
+[build]
+build-dir = "book-en"
+
+[output.html]
+git-repository-url = "https://github.com/AdancUSUL/Rust-Embedded-Tutorial-for-Engineers"
+edit-url-template = "https://github.com/AdancUSUL/Rust-Embedded-Tutorial-for-Engineers/edit/main/{path}"

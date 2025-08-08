@@ -1,1 +1,20 @@
-book
+# mdBook build outputs
+book/
+book-zh/
+book-en/
+deploy/
+
+# Temporary working config file
+book.toml
+
+# Local development files
+*.log
+.DS_Store
+Thumbs.db
+serve.py
+preview_server.py
+
+# Temporary files
+*.tmp
+*.bak
+demo.html

@@ -1,14 +1,30 @@
-# 给嵌入式工程师的单片机Rust上手指南
+# Rust Embedded Tutorial for Engineers
 
-这是一份面向嵌入式工程师的Rust单片机开发指南，旨在帮助有C语言单片机开发经验的工程师快速上手Rust嵌入式开发。
+A comprehensive guide for embedded engineers to get started with Rust for microcontroller development. This tutorial is designed for engineers with C language experience who want to transition to Rust for embedded systems.
 
-## 在线阅读
+## Online Reading
 
-本教程已发布到GitHub Pages，可以通过以下链接在线阅读：
+**Main Site**: [https://adancurusul.github.io/Rust-Embedded-Tutorial-for-Engineers/](https://adancurusul.github.io/Rust-Embedded-Tutorial-for-Engineers/)
 
-[https://adancurusul.github.io/Rust-Embedded-Tutorial-for-Engineers/](https://adancurusul.github.io/Rust-Embedded-Tutorial-for-Engineers/)
+- **English Version**: [/book-en/](https://adancurusul.github.io/Rust-Embedded-Tutorial-for-Engineers/book-en/)
+- **中文版本**: [/book-zh/](https://adancurusul.github.io/Rust-Embedded-Tutorial-for-Engineers/book-zh/)
 
+## Contents
 
-## 贡献
+1. Preface: Challenges in MCU Development and the Value of Rust
+2. Environment Setup: Advantages of Modern Toolchains
+3. Type System: Compile-Time Safety and Zero-Cost Abstractions
+4. Embedded-HAL: Cross-Platform Ecosystem
+5. Embedded Async Programming: A New Paradigm for Embedded Systems
+6. Basic Example: SSD1306 OLED Display
+7. Integrating Rust into STM32 C Projects
+8. Using Vec and Other Containers in Embedded Systems
+9. Rust Development for ESP32
 
-欢迎通过Issue或Pull Request贡献内容、报告错误或提出建议。
+## Contributing
+
+Contributions are welcome! Please submit issues or pull requests for content improvements, bug reports, or suggestions.
+
+## License
+
+This project is licensed under the GPL-3.0 License - see the [LICENSE](LICENSE) file for details.
